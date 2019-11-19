@@ -1,2 +1,8 @@
 def func():
     print("Jame")
+
+class Database:
+    a = 200
+    
+    def __init__(self):
+        a = 100
