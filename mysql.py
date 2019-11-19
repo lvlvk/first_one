@@ -2,6 +2,7 @@
 mysql
 """
 import pymysql
+import socket
 
 # 连接数据库
 db = pymysql.connect(host='localhost', port=3306,
